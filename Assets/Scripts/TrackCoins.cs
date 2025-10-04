@@ -1,20 +1,24 @@
+using TMPro;
 using UnityEngine;
 
 public class TrackCoins : MonoBehaviour
 {
     private int[] coinCounts;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private TMP_Text coinText; // drag CoinText here
+
     void Start()
     {
         coinCounts = new int[3];
+        UpdateUI();
     }
-
-    // Update is called once per frame
-    void Update()
+    public void AddCoin(int type)
     {
-        
-    }
-    void AddCoin(int type) {
         coinCounts[type - 1]++;
+        Debug.Log($"Collected coin type {type}. Count: {coinCounts[type - 1]}");
+        UpdateUI();
+    }
+    private void UpdateUI()
+    {
+        coinText.text = $"Coin 1: {coinCounts[0]}, Coin 2: {coinCounts[1]}, Coin 3: {coinCounts[2]}";
     }
 }
