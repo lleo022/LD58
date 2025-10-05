@@ -27,9 +27,11 @@ public class TrackCoins : MonoBehaviour
         coinText.text = $"Coin 1: {coinCounts[0]}, Coin 2: {coinCounts[1]}, Coin 3: {coinCounts[2]}";
     }
     void UseCoins(int ones, int twos, int threes) {
-        coinCounts[0] -= ones;
-        coinCounts[1] -= twos;
-        coinCounts[2] -= threes;
+        if (coinCounts[0] >= ones && coinCounts[1] >= twos && coinCounts[2] >= threes) {
+            coinCounts[0] -= ones;
+            coinCounts[1] -= twos;
+            coinCounts[2] -= threes;
+        }
     }
     void FinishLevel(int[] reqs) {
         if (coinCounts[0] >= reqs[0] && coinCounts[1] >= reqs[1] && coinCounts[2] >= reqs[2]) {
