@@ -5,7 +5,7 @@ public class MovePlayer : MonoBehaviour
     Rigidbody2D body;
 
     public float speed = 7.0f; //player speed multiplier
-    public float jumpSpeed = 11.5f; //jump speed
+    public float jumpSpeed = 12f; //jump speed
 
     // buffs (if we add them)
     private float speedBuff = 1.0f;
