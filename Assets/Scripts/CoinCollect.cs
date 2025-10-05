@@ -10,7 +10,7 @@ public class CoinCollect : MonoBehaviour
         Debug.Log($"Collided with coin");
         if (other.CompareTag("Player"))
         {
-            tracker.AddCoin(coinType);
+            tracker.SendMessage("AddCoin",coinType);
             Destroy(gameObject);
         }
     }
