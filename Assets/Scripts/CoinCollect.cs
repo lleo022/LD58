@@ -2,24 +2,15 @@ using UnityEngine;
 
 public class CoinCollect : MonoBehaviour
 {
-    [SerializeField]
-    private int coinType;
+    [SerializeField] private int coinType;
+    [SerializeField] private TrackCoins tracker; // drag in inspector
 
-    private GameObject tracker;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        tracker = GameObject.Find("irs");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void OnTriggerEnter2D(Collider2D other) {
-        if (other.gameObject.tag == "Player") {
-            tracker.SendMessage("AddCoin", coinType);
+        Debug.Log($"Collided with coin");
+        if (other.CompareTag("Player"))
+        {
+            tracker.AddCoin(coinType);
             Destroy(gameObject);
         }
     }
