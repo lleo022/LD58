@@ -3,7 +3,11 @@ using UnityEngine;
 public class CoinCollect : MonoBehaviour
 {
     [SerializeField] private int coinType;
-    [SerializeField] private TrackCoins tracker; // drag in inspector
+    private GameObject tracker;
+
+    void Start() {
+        tracker = GameObject.Find("Game Manager");
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
