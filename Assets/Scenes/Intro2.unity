@@ -447,11 +447,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5054282260045775776, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.16763
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5054282260045775776, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.52709
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5054282260045775776, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -947,11 +947,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1408930853691921899, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 1408930853691921899, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 1408930853691921899, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -991,15 +991,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.b
-      value: 0.105731584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.g
-      value: 0.105731584
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.r
-      value: 0.8301887
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6287690509214271190, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Name
@@ -1086,7 +1086,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1408930853691921899, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1408930853691921899, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1130,15 +1130,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.b
-      value: 0.10332859
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.g
-      value: 0.10332859
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4795018376384037951, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Color.r
-      value: 0.8113208
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6287690509214271190, guid: db4b43f84258b4088ab9e07b33337b41, type: 3}
       propertyPath: m_Name
@@ -1432,13 +1432,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Collect coins by moving into them
+  m_text: 'Collect USBs by moving into them
 
-    Press E next to a door to use coins
+    Press E next to a door to use USB(s)
     to open it'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
+  m_sharedMaterial: {fileID: 7342252117538933503, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
