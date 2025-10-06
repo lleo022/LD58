@@ -17,7 +17,6 @@ public class DoorTrigger : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D other) {
         if (other.gameObject.tag == "Player") {
-            Debug.Log("player detected");
             if (Input.GetKey("e")) {
                 if (tracker.GetComponent<TrackCoins>().CanUseCoins(ones, twos, threes)) {
                     tracker.SendMessage("UseCoins", new int[] {ones, twos, threes});
