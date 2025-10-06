@@ -36,6 +36,14 @@ public class MovePlayer : MonoBehaviour
 
         body.linearVelocity = velocity;
 
+        if (Input.GetKeyDown("p")) {
+            Reset();
+        }
+
+        if (Input.GetKeyDown("escape")) {
+            SceneManager.LoadScene(0);
+        }
+
     }
     void EnableJump() {
         canJump = true;

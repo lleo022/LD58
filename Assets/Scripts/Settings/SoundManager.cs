@@ -9,7 +9,7 @@ public class SoundManager : MonoBehaviour
     {
         if (!PlayerPrefs.HasKey("MusicLevel"))
         {
-            PlayerPrefs.GetFloat("MusicLevel", 1);
+            PlayerPrefs.SetFloat("MusicLevel", 1);
             LoadMusic();
 
         }
