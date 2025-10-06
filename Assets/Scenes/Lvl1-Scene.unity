@@ -1299,6 +1299,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2774007605173526961, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
+    - target: {fileID: 2774007605173526961, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7342252117538933503, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
+    - target: {fileID: 2774007605173526961, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3922170661012562237, guid: 268aec3aa5f74aa4f900e64bb8e4a7cb, type: 3}
       propertyPath: m_Name
       value: Game Manager
