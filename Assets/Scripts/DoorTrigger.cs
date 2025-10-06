@@ -3,10 +3,14 @@ using UnityEngine;
 public class DoorTrigger : MonoBehaviour
 {
     public int ones, twos, threes; //door open requirements
+
     private GameObject tracker;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        ones = 0;
+        twos = 1;
+        threes = 0;
         tracker = GameObject.Find("Game Manager");
     }
 
