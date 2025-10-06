@@ -11,7 +11,6 @@ public class CoinCollect : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log($"Collided with coin");
         if (other.CompareTag("Player"))
         {
             tracker.SendMessage("AddCoin",coinType);
