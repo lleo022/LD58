@@ -239,8 +239,8 @@ MonoBehaviour:
     Try
     to save as many coins in total throughout the game.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
+  m_sharedMaterial: {fileID: 7342252117538933503, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -98.10205, y: 0, z: -153.28445, w: -95.03636}
+  m_margin: {x: -98.10205, y: 0, z: -46.38031, w: -95.03636}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
