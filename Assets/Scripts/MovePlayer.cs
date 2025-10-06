@@ -44,6 +44,6 @@ public class MovePlayer : MonoBehaviour
         canJump = false;
     }
     void Reset() {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Intro1");
     }
 }

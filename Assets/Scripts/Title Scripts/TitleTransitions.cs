@@ -13,7 +13,7 @@ public class TitleTransitions : MonoBehaviour
     //Loads Scenes based on button pressed
    public void TransitiontoLVL1()
     {
-        SceneManager.LoadScene("Lvl1-Scene");
+        SceneManager.LoadScene("Intro1");
     }
     public void TransitiontoSettings()
     {
