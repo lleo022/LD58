@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class TitleTransitions : MonoBehaviour
 {
+    void Start() {
+        Destroy(GameObject.Find("SoundPlayer"));
+    }
     
 
     // Update is called once per frame
@@ -26,5 +29,10 @@ public class TitleTransitions : MonoBehaviour
     public void TransitiontoMain()
     {
         SceneManager.LoadScene("Title Screen");
+    }
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("YES");
     }
 }
