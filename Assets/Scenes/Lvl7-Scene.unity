@@ -378,6 +378,46 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1288299321388981980, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 4.5200167
+      objectReference: {fileID: 0}
+    - target: {fileID: 1288299321388981980, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.664
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821992001923687118, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.420944
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821992001923687118, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47341764
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821992001923687118, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 19.2086
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821992001923687118, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.7643
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921261961241603160, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7229243
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921261961241603160, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5115546
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921261961241603160, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21.5579
+      objectReference: {fileID: 0}
+    - target: {fileID: 1921261961241603160, guid: 797048a3f305748a4a8e533559267755, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.7184
+      objectReference: {fileID: 0}
     - target: {fileID: 2464959667011510080, guid: 797048a3f305748a4a8e533559267755, type: 3}
       propertyPath: m_Name
       value: Level_7
