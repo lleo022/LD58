@@ -3,6 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class TitleTransitions : MonoBehaviour
 {
+    void Start() {
+        Destroy(GameObject.Find("SoundPlayer"));
+    }
     
 
     // Update is called once per frame
