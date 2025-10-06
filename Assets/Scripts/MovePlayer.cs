@@ -4,6 +4,10 @@ using UnityEngine.SceneManagement;
 public class MovePlayer : MonoBehaviour
 {
     Rigidbody2D body;
+    Animator anim;
+    SpriteRenderer sp;
+
+    public Sprite normal;
 
     public float speed = 7.0f; //player speed multiplier
     public float jumpSpeed = 12f; //jump speed
@@ -18,6 +22,8 @@ public class MovePlayer : MonoBehaviour
     {
         body = GetComponent<Rigidbody2D>();
         canJump = false;
+        anim = GetComponent<Animator>();
+        sp = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -28,6 +34,16 @@ public class MovePlayer : MonoBehaviour
         }
         Vector2 velocity = body.linearVelocity;
         velocity.x = Input.GetAxisRaw("Horizontal") * speed * speedBuff;
+        if (velocity.x > 0) {
+            anim.SetBool("PlayerWalking", true);
+            sp.flipX = false;
+        } else if (velocity.x < 0) {
+            anim.SetBool("PlayerWalking", true);
+            sp.flipX = true;
+        } else {
+            anim.SetBool("PlayerWalking", false);
+            sp.sprite = normal;
+        }
 
         if (Input.GetKey("space") && canJump)
         {
