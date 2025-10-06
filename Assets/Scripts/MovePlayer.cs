@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -22,6 +23,9 @@ public class MovePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < -12.0f) {
+            Reset();
+        }
         Vector2 velocity = body.linearVelocity;
         velocity.x = Input.GetAxisRaw("Horizontal") * speed * speedBuff;
 
@@ -31,11 +35,15 @@ public class MovePlayer : MonoBehaviour
         }
 
         body.linearVelocity = velocity;
+
     }
     void EnableJump() {
         canJump = true;
     }
     void DisableJump() {
         canJump = false;
+    }
+    void Reset() {
+        SceneManager.LoadScene(0);
     }
 }
