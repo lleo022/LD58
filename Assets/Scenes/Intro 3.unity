@@ -233,11 +233,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Coins you have left after ending a level are added to your savings.
+  m_text: 'USBs you have left after ending a level are added to your collection.
 
 
     Try
-    to save as many coins in total throughout the game.'
+    to collect as many USBs in total throughout the game.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
   m_sharedMaterial: {fileID: 7342252117538933503, guid: 759edb0fa5788f9478708296dd37adaf, type: 2}
