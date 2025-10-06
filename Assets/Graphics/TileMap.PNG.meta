@@ -103,10 +103,10 @@ TextureImporter:
       name: TileMap_0
       rect:
         serializedVersion: 2
-        x: 389
+        x: 0
         y: 0
-        width: 3002
-        height: 3000
+        width: 4800
+        height: 4800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
