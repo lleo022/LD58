@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Keysicon_0: 2290944797213997997
+      Keysicon_1: 1065642818904920968
+      Keysicon_2: -4908079055578765979
+      Keysicon_3: 172914403856932163
+      Keysicon_4: 630371131108629744
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
