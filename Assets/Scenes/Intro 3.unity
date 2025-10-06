@@ -1943,13 +1943,53 @@ PrefabInstance:
       propertyPath: m_Name
       value: end trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 27.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 27.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.07459231
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.07459231
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.07459231
+      objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.884694
+      value: 10.85
       objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2379985
+      value: -2.61
       objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.z

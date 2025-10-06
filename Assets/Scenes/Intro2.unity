@@ -1276,12 +1276,16 @@ PrefabInstance:
       value: end trigger
       objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.060621165
+      objectReference: {fileID: 0}
+    - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.8
+      value: 10.79
       objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.23
+      value: -2.9214
       objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.z
