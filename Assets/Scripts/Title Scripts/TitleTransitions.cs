@@ -1,0 +1,30 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class TitleTransitions : MonoBehaviour
+{
+    
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    //Loads Scenes based on button pressed
+   public void TransitiontoLVL1()
+    {
+        SceneManager.LoadScene("Lvl1-Scene");
+    }
+    public void TransitiontoSettings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
+    public void TransitiontoQuit()
+    {
+        Application.Quit();
+    }
+    public void TransitiontoMain()
+    {
+        SceneManager.LoadScene("Title Screen");
+    }
+}
