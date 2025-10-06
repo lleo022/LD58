@@ -19,7 +19,6 @@ public class TrackCoins : MonoBehaviour
     }
     void AddCoin(int type) {
         coinCounts[type - 1]++;
-        Debug.Log($"Collected coin type {type}. Count: {coinCounts[type - 1]}");
         UpdateUI();
     }
     private void UpdateUI()
