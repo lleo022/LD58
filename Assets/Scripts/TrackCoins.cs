@@ -23,7 +23,7 @@ public class TrackCoins : MonoBehaviour
     }
     private void UpdateUI()
     {
-        coinText.text = $"Coin 1: {coinCounts[0]}, Coin 2: {coinCounts[1]}, Coin 3: {coinCounts[2]}";
+        coinText.text = $"      :{coinCounts[0]}      :{coinCounts[1]}      :{coinCounts[2]}";
     }
     public bool CanUseCoins(int ones, int twos, int threes) {
         return coinCounts[0] >= ones && coinCounts[1] >= twos && coinCounts[2] >= threes;
