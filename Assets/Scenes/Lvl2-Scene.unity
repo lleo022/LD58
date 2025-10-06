@@ -1516,6 +1516,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: end trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Size.x
+      value: 24.294159
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Size.y
+      value: 34.19414
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.020759583
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.40786552
+      objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.044374965

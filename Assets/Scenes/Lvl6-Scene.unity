@@ -1094,6 +1094,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8446735826161920639, guid: 6b5b7b711d78d4c7d9ad04676bed6a53, type: 3}
+      propertyPath: m_Size.x
+      value: 22.933186
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446735826161920639, guid: 6b5b7b711d78d4c7d9ad04676bed6a53, type: 3}
+      propertyPath: m_Size.y
+      value: 32.15728
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446735826161920639, guid: 6b5b7b711d78d4c7d9ad04676bed6a53, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.42328835
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446735826161920639, guid: 6b5b7b711d78d4c7d9ad04676bed6a53, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.3444929
+      objectReference: {fileID: 0}
     - target: {fileID: 8526284575894918353, guid: 6b5b7b711d78d4c7d9ad04676bed6a53, type: 3}
       propertyPath: m_Color.b
       value: 0.7924528

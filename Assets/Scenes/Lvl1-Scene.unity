@@ -1226,6 +1226,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level_1
       objectReference: {fileID: 0}
+    - target: {fileID: 8673927822720281276, guid: bbe98612b5b194c89a509a0f5654ccd9, type: 3}
+      propertyPath: m_Size.x
+      value: 13.693468
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673927822720281276, guid: bbe98612b5b194c89a509a0f5654ccd9, type: 3}
+      propertyPath: m_Size.y
+      value: 34.074467
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673927822720281276, guid: bbe98612b5b194c89a509a0f5654ccd9, type: 3}
+      propertyPath: m_Offset.x
+      value: -6.346734
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673927822720281276, guid: bbe98612b5b194c89a509a0f5654ccd9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.83860207
+      objectReference: {fileID: 0}
     - target: {fileID: 8700562953755106427, guid: bbe98612b5b194c89a509a0f5654ccd9, type: 3}
       propertyPath: m_Color.b
       value: 0.8018868
