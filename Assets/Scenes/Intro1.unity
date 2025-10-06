@@ -575,6 +575,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: end trigger
       objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Size.y
+      value: 6.140938
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881426965362821000, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
+      propertyPath: m_Offset.y
+      value: 2.256997
+      objectReference: {fileID: 0}
     - target: {fileID: 7109775052198264718, guid: 81d6a4c863a1c461bb28eb1a3e300dc7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.701337
