@@ -27,4 +27,9 @@ public class TitleTransitions : MonoBehaviour
     {
         SceneManager.LoadScene("Title Screen");
     }
+    public void ResetScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("YES");
+    }
 }
