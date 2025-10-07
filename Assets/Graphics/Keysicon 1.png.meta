@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 31e4c35b29a9fce458ad1f1354bb6cc3
+guid: 82b0fa8c7e63aec4fb775ce78d41d684
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3781910019033479378
-    second: Idle1_0
+      213: -6412513094785146482
+    second: Keysicon 1_0
   - first:
-      213: -1461846728506201224
-    second: Idle1_1
+      213: 5298682893615559009
+    second: Keysicon 1_1
+  - first:
+      213: -8120231254025872558
+    second: Keysicon 1_2
+  - first:
+      213: 3887445357478517848
+    second: Keysicon 1_3
+  - first:
+      213: 6404586330157216741
+    second: Keysicon 1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 3000
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,30 +108,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle1_0
+      name: Keysicon 1_0
       rect:
         serializedVersion: 2
-        x: 933
-        y: 0
-        width: 947
-        height: 3000
+        x: 0
+        y: 1953
+        width: 1441
+        height: 1339
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e27c40700e4f38bc0800000000000000
-      internalID: -3781910019033479378
+      spriteID: e816ac3b05d2207a0800000000000000
+      internalID: -6412513094785146482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_1
+      name: Keysicon 1_1
       rect:
         serializedVersion: 2
-        x: 1935
-        y: 556
-        width: 132
-        height: 198
+        x: 1748
+        y: 2468
+        width: 207
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +149,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87b2257452a76bbe0800000000000000
-      internalID: -1461846728506201224
+      spriteID: 161f463a404b88940800000000000000
+      internalID: 5298682893615559009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keysicon 1_2
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 1953
+        width: 1441
+        height: 1339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b53c182b42f4f80800000000000000
+      internalID: -8120231254025872558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keysicon 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 1441
+        height: 1339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c9f30c4faf2f530800000000000000
+      internalID: 3887445357478517848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Keysicon 1_4
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 308
+        width: 1441
+        height: 1339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3f7569559a1e850800000000000000
+      internalID: 6404586330157216741
       vertices: []
       indices: 
       edges: []
@@ -173,8 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Idle1_0: -3781910019033479378
-      Idle1_1: -1461846728506201224
+      Keysicon 1_0: -6412513094785146482
+      Keysicon 1_1: 5298682893615559009
+      Keysicon 1_2: -8120231254025872558
+      Keysicon 1_3: 3887445357478517848
+      Keysicon 1_4: 6404586330157216741
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

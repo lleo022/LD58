@@ -6,11 +6,13 @@ public class DoorTrigger : MonoBehaviour
 
     private GameObject tracker;
     private Animator anim;
+    private bool killed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         tracker = GameObject.Find("Game Manager");
         anim = transform.parent.gameObject.GetComponent<Animator>();
+        killed = false;
     }
 
     // Update is called once per frame
@@ -19,11 +21,13 @@ public class DoorTrigger : MonoBehaviour
         
     }
     void OnTriggerStay2D(Collider2D other) {
+        if (killed) return;
         if (other.gameObject.tag == "Player") {
             if (Input.GetKey("e")) {
                 if (tracker.GetComponent<TrackCoins>().CanUseCoins(ones, twos, threes)) {
                     tracker.SendMessage("UseCoins", new int[] {ones, twos, threes});
                     anim.SetTrigger("Door Opened");
+                    killed = true;
                     RemoveDoor();
                 }
             }
