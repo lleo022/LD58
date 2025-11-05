@@ -1,2 +1,3 @@
 # LD58
- we make da best games rahhhh!!!
+Low Disk Space: the game.
+Escape you computer by collecting USB drives of different colors and using them to unlock the correct doors. Be careful, if you spend unwisely, you may find yourself trapped forever...
